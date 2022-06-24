@@ -4,7 +4,7 @@
     --primary-color: #e5c877;
     --secondary-color: #5592b5;
     --dark-color: #e5c877;
-    --light-color: #f4f4f4;
+    --light-color: #ffffff;
     --success-color: #5cb85c;
     --error-color: #d9534f;
 }
@@ -108,9 +108,11 @@ code, pre {
 }
 
 /* Showcase */
+
+
 .showcase_inspo {
-    margin-top: 7rem;
-    height: 500px;
+    margin-top: 10rem;
+    /* height: 500px; */
     color: #fff;
     
     
@@ -335,6 +337,14 @@ code, pre {
 }
 /* Features */
 
+.features-head{
+    margin-top: 5rem;
+}
+
+.features-head h1{
+    font-size: 35px;
+}
+
 .features-head img, .docs-head img {
     width: 200px;
     justify-self: flex-end;
@@ -366,6 +376,16 @@ code, pre {
 }
 
 /* Docs */
+
+.docs-head h1{
+    font-size: 35px;
+    
+    
+}
+
+.docs-head {
+    margin-top: 5rem;
+}
 
 .docs-main h3 {
     margin: 20px 0;
@@ -481,8 +501,8 @@ code, pre {
 
 .showcase-text_inspo  {
     text-align: center;
-    margin-top: 1px;
-    margin-bottom: 50px;
+    /* margin-top: 1px; */
+    /* margin-bottom: 1px; */
 
 }
 
@@ -528,6 +548,7 @@ code, pre {
     padding-left: 0rem;
  }
 
+
 }
 
 
@@ -556,6 +577,8 @@ code, pre {
     .usc {
         padding-left: 0rem;
      }
+
+     
     
 }
 
