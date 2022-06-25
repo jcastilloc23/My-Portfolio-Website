@@ -101,14 +101,14 @@ code, pre {
     border-bottom: 1px #fff solid;
 }
 
-.header-nav-item a:hover {
+/* .header-nav-item a:hover {
     border-bottom: 1px rgb(0, 0, 0) solid;
 
-}
+} */
 
 .header-nav-item--current a {
-    font-weight: bold;
-    
+    border-bottom: 1px rgb(0, 0, 0) solid;
+      
 }
 
 .navbar .flex {
@@ -119,7 +119,7 @@ code, pre {
 
 
 .showcase_inspo {
-    margin-top: 10rem;
+    margin-top: 11rem;
     /* height: 500px; */
     color: #fff;
     
@@ -349,7 +349,7 @@ code, pre {
 /* Features */
 
 .features-head{
-    margin-top: 5rem;
+    margin-top: 11rem;
 }
 
 .features-head h1{
